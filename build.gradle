@@ -1,0 +1,59 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.3.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id "com.diffplug.eclipse.apt" version "3.26.0"
+}
+
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+ext {
+	mapstructVersion = "1.2.0.Final"
+}
+
+configurations {
+    providedRuntime
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-jersey'
+	implementation 'io.springfox:springfox-swagger2:2.9.2'
+	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+	implementation "org.mapstruct:mapstruct:${mapstructVersion}"
+	implementation 'org.apache.commons:commons-collections4:4.4'
+	implementation 'org.modelmapper:modelmapper:2.3.0'
+	
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
+	testAnnotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+	
+	runtimeOnly 'com.h2database:h2'
+	compileOnly 'org.projectlombok:lombok'
+
+	compileOnly("org.mapstruct:mapstruct-jdk8:${mapstructVersion}")
+    annotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+	annotationProcessor 'org.projectlombok:lombok'
+	
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+}
+
+compileJava {
+    options.annotationProcessorPath = configurations.annotationProcessor
+
+    // if you need to configure mapstruct component model
+    options.compilerArgs << "-Amapstruct.defaultComponentModel=spring" 
+    
+	options.setAnnotationProcessorGeneratedSourcesDirectory( file("$projectDir/src/main/java"))
+}
+
+test {
+	useJUnitPlatform()
+}

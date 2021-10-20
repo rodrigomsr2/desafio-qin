@@ -1,0 +1,128 @@
+com/tenniscourts/usergroup/dto/CreateGuestUserGroupDTO.java
+ com.tenniscourts.usergroup.dto.CreateGuestUserGroupDTO
+ com.tenniscourts.usergroup.dto.CreateGuestUserGroupDTO$CreateGuestUserGroupDTOBuilder
+com/tenniscourts/tenniscourts/TennisCourtService.java
+ com.tenniscourts.tenniscourts.TennisCourtService
+com/tenniscourts/schedules/ScheduleMapper.java
+ com.tenniscourts.schedules.ScheduleMapper
+com/tenniscourts/usergroup/UserGroup.java
+ com.tenniscourts.usergroup.UserGroup
+com/tenniscourts/audit/CustomAuditEntityListener.java
+ com.tenniscourts.audit.CustomAuditEntityListener
+com/tenniscourts/guests/dto/UpdateGuestDTO.java
+ com.tenniscourts.guests.dto.UpdateGuestDTO
+ com.tenniscourts.guests.dto.UpdateGuestDTO$UpdateGuestDTOBuilder
+com/tenniscourts/config/swagger/SwaggerConfig.java
+ com.tenniscourts.config.swagger.SwaggerConfig
+com/tenniscourts/schedules/ScheduleController.java
+ com.tenniscourts.schedules.ScheduleController
+com/tenniscourts/exceptions/AlreadyExistsEntityException.java
+ com.tenniscourts.exceptions.AlreadyExistsEntityException
+com/tenniscourts/tenniscourts/TennisCourtMapper.java
+ com.tenniscourts.tenniscourts.TennisCourtMapper
+com/tenniscourts/tenniscourts/dto/TennisCourtIdDTO.java
+ com.tenniscourts.tenniscourts.dto.TennisCourtIdDTO
+ com.tenniscourts.tenniscourts.dto.TennisCourtIdDTO$TennisCourtIdDTOBuilder
+com/tenniscourts/permission/PermissionRepositoy.java
+ com.tenniscourts.permission.PermissionRepositoy
+com/tenniscourts/tenniscourts/TennisCourtMapperImpl.java
+ com.tenniscourts.tenniscourts.TennisCourtMapperImpl
+com/tenniscourts/guests/GuestRepository.java
+ com.tenniscourts.guests.GuestRepository
+com/tenniscourts/reservations/dto/CreateReservationRequestDTO.java
+ com.tenniscourts.reservations.dto.CreateReservationRequestDTO
+ com.tenniscourts.reservations.dto.CreateReservationRequestDTO$CreateReservationRequestDTOBuilder
+com/tenniscourts/reservations/ReservationController.java
+ com.tenniscourts.reservations.ReservationController
+com/tenniscourts/reservations/ReservationRepository.java
+ com.tenniscourts.reservations.ReservationRepository
+com/tenniscourts/guests/dto/CreateGuestDTO.java
+ com.tenniscourts.guests.dto.CreateGuestDTO
+ com.tenniscourts.guests.dto.CreateGuestDTO$CreateGuestDTOBuilder
+com/tenniscourts/exceptions/BusinessException.java
+ com.tenniscourts.exceptions.BusinessException
+com/tenniscourts/tenniscourts/TennisCourtController.java
+ com.tenniscourts.tenniscourts.TennisCourtController
+com/tenniscourts/config/modelmapper/ModelMapperConfig.java
+ com.tenniscourts.config.modelmapper.ModelMapperConfig
+com/tenniscourts/tenniscourts/TennisCourtRepository.java
+ com.tenniscourts.tenniscourts.TennisCourtRepository
+com/tenniscourts/reservations/Reservation.java
+ com.tenniscourts.reservations.Reservation
+ com.tenniscourts.reservations.Reservation$ReservationBuilder
+com/tenniscourts/guests/dto/GuestOutputDTO.java
+ com.tenniscourts.guests.dto.GuestOutputDTO
+ com.tenniscourts.guests.dto.GuestOutputDTO$GuestOutputDTOBuilder
+com/tenniscourts/reservations/dto/ReservationDTO.java
+ com.tenniscourts.reservations.dto.ReservationDTO
+ com.tenniscourts.reservations.dto.ReservationDTO$ReservationDTOBuilder
+com/tenniscourts/guests/GuestController.java
+ com.tenniscourts.guests.GuestController
+com/tenniscourts/tenniscourts/TennisCourt.java
+ com.tenniscourts.tenniscourts.TennisCourt
+com/tenniscourts/config/BaseRestController.java
+ com.tenniscourts.config.BaseRestController
+com/tenniscourts/guests/dto/GuestForReservationDTO.java
+ com.tenniscourts.guests.dto.GuestForReservationDTO
+ com.tenniscourts.guests.dto.GuestForReservationDTO$GuestForReservationDTOBuilder
+com/tenniscourts/exceptions/GuestNotFoundException.java
+ com.tenniscourts.exceptions.GuestNotFoundException
+com/tenniscourts/reservations/ReservationMapperImpl.java
+ com.tenniscourts.reservations.ReservationMapperImpl
+com/tenniscourts/guests/GuestMapper.java
+ com.tenniscourts.guests.GuestMapper
+com/tenniscourts/config/persistence/BaseEntity.java
+ com.tenniscourts.config.persistence.BaseEntity
+com/tenniscourts/schedules/dto/ScheduleForReservationDTO.java
+ com.tenniscourts.schedules.dto.ScheduleForReservationDTO
+ com.tenniscourts.schedules.dto.ScheduleForReservationDTO$ScheduleForReservationDTOBuilder
+com/tenniscourts/guests/GuestService.java
+ com.tenniscourts.guests.GuestService
+com/tenniscourts/schedules/ScheduleRepository.java
+ com.tenniscourts.schedules.ScheduleRepository
+com/tenniscourts/guests/GuestMapperImpl.java
+ com.tenniscourts.guests.GuestMapperImpl
+com/tenniscourts/reservations/ReservationMapper.java
+ com.tenniscourts.reservations.ReservationMapper
+com/tenniscourts/reservations/ReservationStatus.java
+ com.tenniscourts.reservations.ReservationStatus
+com/tenniscourts/permission/Permission.java
+ com.tenniscourts.permission.Permission
+com/tenniscourts/usergroup/UserGroupRepository.java
+ com.tenniscourts.usergroup.UserGroupRepository
+com/tenniscourts/schedules/dto/ScheduleDTO.java
+ com.tenniscourts.schedules.dto.ScheduleDTO
+com/tenniscourts/schedules/ScheduleMapperImpl.java
+ com.tenniscourts.schedules.ScheduleMapperImpl
+com/tenniscourts/exceptions/ReservertionAlreadyExistsException.java
+ com.tenniscourts.exceptions.ReservertionAlreadyExistsException
+com/tenniscourts/reservations/ReservationService.java
+ com.tenniscourts.reservations.ReservationService
+com/tenniscourts/guests/Guest.java
+ com.tenniscourts.guests.Guest
+ com.tenniscourts.guests.Guest$GuestBuilder
+com/tenniscourts/TennisCourtApplication.java
+ com.tenniscourts.TennisCourtApplication
+com/tenniscourts/schedules/ScheduleService.java
+ com.tenniscourts.schedules.ScheduleService
+com/tenniscourts/tenniscourts/dto/TennisCourtDTO.java
+ com.tenniscourts.tenniscourts.dto.TennisCourtDTO
+ com.tenniscourts.tenniscourts.dto.TennisCourtDTO$TennisCourtDTOBuilder
+com/tenniscourts/schedules/Schedule.java
+ com.tenniscourts.schedules.Schedule
+ com.tenniscourts.schedules.Schedule$ScheduleBuilder
+com/tenniscourts/schedules/dto/CreateScheduleRequestDTO.java
+ com.tenniscourts.schedules.dto.CreateScheduleRequestDTO
+com/tenniscourts/guests/GuestAssembler.java
+ com.tenniscourts.guests.GuestAssembler
+com/tenniscourts/exceptions/CustomResponseEntityExceptionHandler.java
+ com.tenniscourts.exceptions.CustomResponseEntityExceptionHandler
+com/tenniscourts/exceptions/ScheduleNotFoundException.java
+ com.tenniscourts.exceptions.ScheduleNotFoundException
+com/tenniscourts/exceptions/EntityNotFoundException.java
+ com.tenniscourts.exceptions.EntityNotFoundException
+com/tenniscourts/tenniscourts/dto/TennisCourtForReservationDTO.java
+ com.tenniscourts.tenniscourts.dto.TennisCourtForReservationDTO
+ com.tenniscourts.tenniscourts.dto.TennisCourtForReservationDTO$TennisCourtForReservationDTOBuilder
+com/tenniscourts/exceptions/ErrorDetails.java
+ com.tenniscourts.exceptions.ErrorDetails
